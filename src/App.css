@@ -1,0 +1,49 @@
+body {
+     font-family: sans-serif;
+     background: #f1f1f1;
+     margin: 0;
+     padding: 0;
+   }
+   
+   .app-container {
+     padding: 1rem;
+     max-width: 800px;
+     margin: auto;
+   }
+   
+   form {
+     display: flex;
+     gap: 0.5rem;
+     margin-bottom: 1rem;
+   }
+   
+   input {
+     padding: 0.5rem;
+     flex: 1;
+   }
+   
+   button {
+     padding: 0.5rem 1rem;
+     background-color: #0077ff;
+     color: white;
+     border: none;
+     cursor: pointer;
+   }
+   
+   .current-weather {
+     background-color: white;
+     padding: 1rem;
+     border-radius: 10px;
+     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+     margin-bottom: 1rem;
+   }
+   
+   .favorite-card {
+     padding: 0.5rem;
+     background-color: #fff;
+     margin-bottom: 0.5rem;
+     border-radius: 8px;
+     cursor: pointer;
+   }
+
+   
